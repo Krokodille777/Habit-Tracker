@@ -4,6 +4,8 @@ from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
 
+HABITS_LIST = []
+
 @app.route('/', methods=['GET'])
 def index():
     return render_template('homepage.html')

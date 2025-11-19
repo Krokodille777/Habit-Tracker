@@ -17,3 +17,5 @@ window.onload = function(){
     const btn2 = document.getElementById("homeBtn");
     btn2.addEventListener("click", GoHome);
 }
+
+export {GoHome};

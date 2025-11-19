@@ -7,9 +7,25 @@
     </head>
     <body>
         
-            <h1>test</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class = "headerclass">
+                <nav class = "left_nav">
+                    <button class = "btn" id = "homeBtn" onclick = "GoHome()">Home</button>
+                    <button class = "btn" id = "aboutBtn" onclick = "GoAbout()">About</button>
+                    <button class = "btn" id = "customBtn" onclick = "GoCustomization()">Customization</button>
+                    <button class = "btn" id = "chatBtn" onclick = "GoChat()">Chat</button>
+                </nav>
+            </div>
+            <hr>
+            <div class = "habitsTracker">
+                <nav class = "toolbar">
+                    <button class = "btn" id = "addHabitBtn" onclick = "AddHabit()">+</button>
+                    <button class = "btn" id = "viewStatsBtn" onclick = "ViewStats()">👁️</button>
+                </nav>
+                <div class = "habitList" id = "habitList">
+                    <!-- Habit items will be dynamically added here -->
+                </div>
+            </div>
 
-        <script src = "../static/js/habitpage.js"></script>
+        <script type = "module"src = "../static/js/habitpage.js"></script>
     </body>
 </html>
