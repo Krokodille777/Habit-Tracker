@@ -1,14 +1,11 @@
 let windowpage = window.location.pathname;
-if (windowpage === '/' || windowpage === '/index.html'){
-    window.location.href = '/homepage.html';
-}
 function GetStarted(){
-windowpage = "../templates/habitpage.html";
+windowpage = "/habitpage";
 window.location.href = windowpage;
 }
 
 function GoHome(){
-    windowpage = "../templates/homepage.html";
+    windowpage = "/";
     window.location.href = windowpage;
 }
 
