@@ -21,9 +21,16 @@
                     <button class = "btn" id = "addHabitBtn" onclick = "AddHabit()">+</button>
                     <button class = "btn" id = "viewStatsBtn" onclick = "ViewStats()">👁️</button>
                 </nav>
-                <div class = "habitList" id = "habitList">
+                <div class = "habitGrid" id = "habitGrid">
+                    <div class = "habitItem">
+                        <h3>Sample Habit</h3>
+                        <p>Details about the habit.</p>
+                        <button class = "btn" onclick = "EditHabit()">Edit</button>
+                        <button class = "btn" onclick = "DeleteHabit()">Delete</button>
                     <!-- Habit items will be dynamically added here -->
+
                 </div>
+                
             </div>
 
         <script type = "module"src = "../static/js/habitpage.js"></script>
