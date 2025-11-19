@@ -7,6 +7,8 @@ windowpage = "../templates/habitpage.html";
 window.location.href = windowpage;
 }
 
+
+
 window.onload = function(){
     const btn = document.getElementById("GetStartedBtn");
     btn.addEventListener("click", GetStarted);
