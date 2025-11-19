@@ -7,5 +7,8 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def index():
     return render_template('homepage.html')
+@app.route('/habitpage', methods=['GET'])
+def habitpage():
+    return render_template('habitpage.html')
 if __name__ == '__main__':
     app.run(debug = True)
